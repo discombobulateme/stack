@@ -25,7 +25,7 @@ Now if you visit http://stack.localhost, you will be greeted with the frontend s
 If you wish to use a domain name other than http://stack.localhost, simply set the environment variable `DOMAIN` to any domain you want.
 
 ```sh
-$ DOMAIN=another-domain.localhost docker-compose up
+$ DOMAIN=another-domain.localhost docker-compose up --build
 ```
 
 You then also need to update your `hosts` file accordingly.
